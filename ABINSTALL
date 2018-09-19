@@ -1,0 +1,61 @@
+#!/bin/bash
+pkg install figlet
+pkg install ruby
+gem install lolcat
+echo ""
+echo " update .. Succces.." | lolcat
+sleep 2
+clear
+figlet -f digital.flf "TOOLS ABINSTALL" | lolcat
+echo "\033[36;1m[+]\033[31;1m==============BETA=================\033[36;1m[+]"
+echo "\033[32;1m   Coder By : MR R.4N
+   Email    : tayoiki369@gmail.com
+   youtube  : Android Berak"
+echo "\033[36;1m[+]\033[31;1m===================================\033[36;1m[+]"
+echo "\033[31;1mPilihan Menu :
+1.  Install Tools DDOS 
+2.  Film STARWARS
+99. Exit
+\033[36;1m"
+echo ""
+read -p " Pilih >> " r
+if [ $r = 1 ] 
+then
+pkg install git python
+git clone http://github.com/cyweb/hammer
+clear
+echo ""
+echo "berhasil terinstall" | lolcat
+sleep 2
+echo "file ada di directory HOME"|lolcat
+clear
+fi
+
+
+if [ $r = 2 ]
+
+then
+apt update && apt upgrade
+pkg install busybox
+clear
+echo ""
+echo "Update Telnet..." | lolcat
+sleep 2
+echo "Tunggu...." | lolcat
+sleep 2
+clear
+telnet Towel.blinkenlights.nl
+fi
+
+
+if [ $r = 99 ]
+then 
+echo ""
+sleep 1
+echo "Sampai Jumpa Datang Lagi yahh..." | lolcat
+sleep 2
+echo ""
+echo "AWTOR = ANDROID BERAK " | lolcat
+sleep 2
+clear
+fi
